@@ -1,0 +1,32 @@
+.cat-info {
+  display: flex;
+}
+
+img {
+  height: 800px; 
+  width: 925px;
+  object-fit: cover;
+  padding: 50px 5px 50px 5px;
+  float: left;
+}
+
+.cat-breed,
+.cat-description,
+.cat-temperament {
+  margin: 0;
+  line-height: 2;
+  padding-left: 10px; 
+}
+
+.cat-breed {
+  padding-top: 50px;
+  font-size: 20px; 
+  margin-top: 20px; 
+}
+
+.cat-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 800px;
+}
